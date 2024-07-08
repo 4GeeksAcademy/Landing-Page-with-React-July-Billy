@@ -9,19 +9,19 @@ import Footer from './footer';
 const Home = () => {
   return (
     <div>
-      <NavBar/>
-    <div className="container col-10 p-0">
-      <div className='col-12 mt-5 mx-auto' style={{justifyContent: 'center'}}>
-      <Jumbotron />
+      <NavBar />
+      <div className="container col-12 p-0">
+        <div className='col-12 mt-5' style={{ justifyContent: 'center' }}>
+          <Jumbotron />
+          <div className='row p-0 mb-5' style={{ justifyContent: 'center'}}>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </div>
+        </div>
       </div>
-      <div className='row p-0 mx-auto mb-5'style={{justifyContent: 'center'}}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
-    </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
